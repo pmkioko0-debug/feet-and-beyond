@@ -3,42 +3,191 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thread & Kicks</title>
+    <title>Feet & Beyond | Premium Sneakers & Streetwear</title>
 
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
     <!-- Font Awesome -->
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
 
-<header>
-    <nav>
-        <div class="logo">
-            <img src="assets/images/logo.png.png" alt="Thread & Kicks ">
-            <p>Feet & Beyond</p>
-        </div>
+<!-- ================= NAVBAR ================= -->
 
+<header>
+
+    <div class="logo">
+        <a href="#">
+            <img src="assets/images/logo.png.png" alt="Feet & Beyond Logo">
+        </a>
+    </div>
+
+    <nav>
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">Home</a></li>
             <li><a href="#">Sneakers</a></li>
             <li><a href="#">Clothing</a></li>
+            <li><a href="#">Brands</a></li>
+            <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
-</header>
 
-</header>
-<section class="hero">
-    <div class="hero-text">
-        <h1>Step Into Style</h1>
-        <p>Premium sneakers at unbeatable prices.</p>
-
-        <button>Shop Now</button>
+    <div class="nav-icons">
+        <a href="#"><i class="fas fa-search"></i></a>
+        <a href="#"><i class="fas fa-user"></i></a>
+        <a href="#"><i class="fas fa-heart"></i></a>
+        <a href="#"><i class="fas fa-shopping-cart"></i></a>
     </div>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <span>New Collection 2026</span>
+
+        <h1>
+            Step Into <br>
+            Your Next Style
+        </h1>
+
+        <p>
+            Discover authentic sneakers and premium streetwear from the
+            world's biggest brands. Style, comfort and quality delivered
+            right to your doorstep.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#" class="btn-primary">
+                Shop Now
+            </a>
+
+            <a href="#" class="btn-secondary">
+                New Arrivals
+            </a>
+
+        </div>
+
+    </div>
+
 </section>
+
+<!-- ================= FEATURED BRANDS ================= -->
+
+<section class="products">
+
+    <h2>Shop by Category</h2>
+
+    <div class="tabs">
+
+        <button class="tab-btn active" onclick="showCategory('sneakers')">
+            Sneakers
+        </button>
+
+        <button class="tab-btn" onclick="showCategory('clothing')">
+            Clothing
+        </button>
+
+    </div>
+
+    
+
+    </div>
+
+</section>
+
+<!-- ================= WHY CHOOSE US ================= -->
+
+<section class="features">
+
+    <h2>Why Shop With Us?</h2>
+
+    <div class="feature-grid">
+
+        <div class="feature-box">
+            <i class="fas fa-truck"></i>
+            <h3>Fast Delivery</h3>
+            <p>Countrywide shipping across Kenya.</p>
+        </div>
+
+        <div class="feature-box">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Authentic Products</h3>
+            <p>100% genuine sneakers and apparel.</p>
+        </div>
+
+        <div class="feature-box">
+            <i class="fas fa-credit-card"></i>
+            <h3>Secure Payments</h3>
+            <p>Safe and reliable checkout experience.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section class="newsletter">
+
+    <h2>Join Our Newsletter</h2>
+
+    <p>
+        Be the first to know about new releases and exclusive offers.
+    </p>
+
+    <form>
+
+        <input
+            type="email"
+            placeholder="Enter your email"
+            required
+        >
+
+        <button type="submit">
+            Subscribe
+        </button>
+
+    </form>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <h3>Feet & Beyond</h3>
+
+    <p>
+        Premium Sneakers & Streetwear.
+    </p>
+
+    <div class="socials">
+
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+
+    </div>
+
+    <p class="copyright">
+        © 2026 Feet & Beyond. All Rights Reserved.
+    </p>
+
+</footer>
 
 <script src="script.js"></script>
 

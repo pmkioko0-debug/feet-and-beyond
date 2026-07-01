@@ -1,49 +1,17 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-}
+function showCategory(category){
 
-header {
-    background-color: #111;
-    color: white;
-    padding: 15px 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    const categories = document.querySelectorAll('.product-grid');
+    const buttons = document.querySelectorAll('.tab-btn');
 
-nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
-}
+    categories.forEach(item=>{
+        item.classList.remove('active-category');
+    });
 
-.hero {
-    text-align: center;
-    padding: 80px 20px;
-    background: #ffffff;
-}
+    buttons.forEach(btn=>{
+        btn.classList.remove('active');
+    });
 
-.hero h2 {
-    font-size: 40px;
-}
+    document.getElementById(category).classList.add('active-category');
 
-.hero p {
-    font-size: 18px;
-    color: #555;
-}
-
-button {
-    background-color: #000;
-    color: white;
-    border: none;
-    padding: 12px 25px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #444;
+    event.target.classList.add('active');
 }
