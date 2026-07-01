@@ -3,70 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feet & Beyond | Every Step, Every Style</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Thread & Kicks</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
 
-<header>
-    <div class="logo">
-        <h1>👟 Feet & Beyond</h1>
-        <p>Every Step, Every Style</p>
-    </div>
+<!-- ================= HEADER ================= -->
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Shop</a>
-        <a href="#">Men</a>
-        <a href="#">Women</a>
-        <a href="#">Accessories</a>
-        <a href="#">Contact</a>
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <img src="assets/image/logo.png" alt="Thread & Kicks Logo">
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sneakers</a></li>
+            <li><a href="#">Clothing</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="nav-icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-shopping-cart"></i>
+            <i class="fas fa-user"></i>
+        </div>
+
     </nav>
+
 </header>
 
+<!-- ================= HERO ================= -->
+
 <section class="hero">
-    <h2>Walk With Confidence</h2>
-    <p>Quality shoes, fashion and accessories delivered across Kenya.</p>
-    <button>Shop Now</button>
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h1>Walk with Confidence</h1>
+
+<p>Premium Sneakers & Fashion for Every Style.</p>
+
+<div class="hero-buttons">
+
+<a href="#" class="btn">Shop Sneakers</a>
+
+<a href="#" class="btn">Shop Clothing</a>
+
+</div>
+
+</div>
+
 </section>
 
+<!-- ================= CATEGORIES ================= -->
+
 <section class="categories">
-    <h2>Shop by Category</h2>
 
-    <div class="category-grid">
+<h2>Shop by Category</h2>
 
-        <div class="card">
-            <h3>👟 Sneakers</h3>
+<div class="category-container">
+
+<div class="category-card">
+
+<i class="fas fa-shoe-prints"></i>
+
+<h3>Sneakers</h3>
+
+<p>Nike, Adidas, Jordan, Puma and more.</p>
+
+</div>
+
+<div class="category-card">
+
+<i class="fas fa-shirt"></i>
+
+<h3>Clothing</h3>
+
+<p>T-Shirts, Shirts, Hoodies & Trousers.</p>
+
+</div>
+<section class="featured">
+    <h2>🔥 Featured Sneakers</h2>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80" alt="Nike Sneaker">
+            <h3>Nike Air Max</h3>
+            <p>KSh 6,500</p>
+            <a href="https://wa.me/254YOURNUMBER?text=Hi%20I'm%20interested%20in%20Nike%20Air%20Max" class="buy-btn">Order on WhatsApp</a>
         </div>
 
-        <div class="card">
-            <h3>👢 Boots</h3>
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1518002171953-a080ee817e1f?auto=format&fit=crop&w=800&q=80" alt="Adidas">
+            <h3>Adidas Samba</h3>
+            <p>KSh 5,800</p>
+            <a href="https://wa.me/254YOURNUMBER?text=Hi%20I'm%20interested%20in%20Adidas%20Samba" class="buy-btn">Order on WhatsApp</a>
         </div>
 
-        <div class="card">
-            <h3>👠 Heels</h3>
-        </div>
-
-        <div class="card">
-            <h3>👞 Loafers</h3>
-        </div>
-
-        <div class="card">
-            <h3>👕 Clothing</h3>
-        </div>
-
-        <div class="card">
-            <h3>🎒 Accessories</h3>
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=800&q=80" alt="Puma">
+            <h3>Puma Suede</h3>
+            <p>KSh 5,200</p>
+            <a href="https://wa.me/254745933854?text=Hi%20I'm%20interested%20in%20Puma%20Suede" class="buy-btn">Order on WhatsApp</a>
         </div>
 
     </div>
 </section>
+</div>
 
-<footer>
-    <p>© 2026 Feet & Beyond. All Rights Reserved.</p>
-</footer>
-
-<script src="assets/js/script.js"></script>
+</section>
 
 </body>
 </html>
